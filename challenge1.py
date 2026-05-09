@@ -5,3 +5,4 @@ for l in sentence:
     if l == letter:
         count += 1
 print("The Letter", letter, "appears", count)
+print("Author: Amer Lardhi")
