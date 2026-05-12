@@ -1,5 +1,5 @@
-sentence = input("Enter sentence: ")
-letter = input("Enter letter: ")
+sentence = input("Enter sentence: ").upper()
+letter = input("Enter letter: ").upper()
 count = 0
 for l in sentence:
     if l == letter:
