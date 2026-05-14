@@ -1,7 +1,7 @@
 print("welcome in the billing Calculator")
 total_price = 0
 while True:
-    item_name = input("Enter The Item Name: ").capitalizw()
+    item_name = input("Enter The Item Name: ").capitalize()
     if item_name == 'Exit':
         break
     try:
